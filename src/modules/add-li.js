@@ -4,5 +4,5 @@ const addLi = (text) => {
   li.classList.add('score');
   li.innerHTML = text;
   leaderboard.appendChild(li);
-};  
+};
 export default addLi;
