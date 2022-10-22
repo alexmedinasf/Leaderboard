@@ -6,5 +6,5 @@ const showMessage = (message, classToRemove, classToAdd, innerHTML) => {
     message.classList.remove(classToAdd);
     message.innerHTML = '';
   }, 3000);
-};  
+};
 export default showMessage;

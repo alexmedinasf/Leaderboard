@@ -10,5 +10,5 @@ const getScores = async (scores) => {
       scores.innerHTML = 'No scores yet';
     }
   });
-};  
+};
 export default getScores;
