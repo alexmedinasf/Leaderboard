@@ -56,7 +56,6 @@ input {
 }
 
 #leaderboard {
-  background-color: #fff;
   border: var(--color-primary) solid 0.06rem;
   min-height: 12rem;
 }
