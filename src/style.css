@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #555;
+  --color-disabled: #ccc;
+  --color-accent: #4d60d6;
+  --color-active: #2db32d;
+  --color-focus: rgb(152, 208, 152);
+  --color-negative: #fff;
+  --font: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-primary);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+button,
+input {
+  font-size: 1rem;
+  font-family: var(--font);
+  padding: 0.5rem;
+}
+
+#add-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#refresh {
+  align-self: center;
+}
+
+#leaderboard {
+  border: var(--color-primary) solid 0.06rem;
+  min-height: 12rem;
+}
+
+.score {
+  background-color: var(--color-disabled);
+}
+
+.score:nth-child(2n) {
+  background-color: var(--color-negative);
+}
+
+.head {
+  display: flex;
+  gap: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 50rem;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
