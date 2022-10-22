@@ -15,8 +15,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'development',
-  entry: './src/index.js',
-devServer: {
-static: './dist',
-}
+  devServer: {
+    static: './dist',
+  },
 };
