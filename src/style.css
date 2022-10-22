@@ -33,30 +33,37 @@ input {
   padding: 0.5rem;
 }
 
-.add-score {
+#add-section {
   display: flex;
   flex-direction: column;
 }
 
-.refresh {
-  background-color: #2db32d;
+#refresh {
   align-self: center;
 }
 
-.show-scores {
+#leaderboard {
   border: var(--color-primary) solid 0.06rem;
   min-height: 12rem;
 }
 
-.recent-scores {
+.score {
   background-color: var(--color-disabled);
 }
 
-.show-scores:nth-child(2n) {
+.score:nth-child(2n) {
   background-color: var(--color-negative);
 }
 
 .head {
   display: flex;
   gap: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 50rem;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
 }
