@@ -13,8 +13,14 @@
 }
 
 body {
-  font-family: var(--font);
-  color: var(--color-primary);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, #7fabde 0%, #4d56b8 100%);
+  animation: color 9s infinite linear;
+  font-family: 'Exo', sans-serif;
+  overflow-y: scroll;
 }
 
 ul {
@@ -26,7 +32,13 @@ h1 {
   text-align: center;
 }
 
-button,
+button {
+  background-color: rgb(105, 158, 218);
+  font-size: 1rem;
+  font-family: var(--font);
+  padding: 0.5rem;
+}
+
 input {
   font-size: 1rem;
   font-family: var(--font);
@@ -38,11 +50,13 @@ input {
   flex-direction: column;
 }
 
-#refresh {
+.refresh {
+  margin-left: 0;
   align-self: center;
 }
 
 #leaderboard {
+  background-color: #fff;
   border: var(--color-primary) solid 0.06rem;
   min-height: 12rem;
 }
