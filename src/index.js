@@ -3,8 +3,8 @@ import getScores from './modules/getScores.js';
 import './style.css';
 
 const scoresList = document.querySelector('.scores-list');
-const submitButton = document.querySelector('.submit-button');
-const refreshButton = document.querySelector('.refresh');
+const submitButton = document.querySelector('#submit-score');
+const refreshButton = document.querySelector('#refresh');
 const message = document.querySelector('.message');
 
 refreshButton.addEventListener('click', (e) => {
