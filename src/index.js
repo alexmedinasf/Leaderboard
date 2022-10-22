@@ -1,4 +1,4 @@
-import './style.css';
+import css from "./style.css";
 import addLi from './modules/add-li.js';
 
 const leaderboardData = {
