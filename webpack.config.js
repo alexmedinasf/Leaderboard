@@ -5,7 +5,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -14,5 +14,5 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'development'
+  mode: 'development',
 };
